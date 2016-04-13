@@ -1,0 +1,22 @@
+
+<html>
+<head>
+</head>
+<body>
+    <a id="appLink" href="com-nineyi-shop-s001948://ShopSalePageCategory/2241?utm_source=source&amp;utm_medium=medium&amp;utm_campaign=campaign"></a>
+</body>
+</html>
+<script type="text/javascript">
+    var appstore = "https://click.google-analytics.com/redirect?tid=UA-59738701-1&url=https%3A%2F%2Fitunes.apple.com%2fapp%2fid1069825432&aid=698490263&idfa={idfa}&cs=source&cm=medium&cn=campaign&anid=admob&hash=md5";
+    function applink(appstore) {
+        return function () {
+            var clickedAt = +new Date;
+            setTimeout(function () { if (+new Date - clickedAt < 2000) { window.location = appstore; } }, 500);
+        };
+    }
+    document.getElementById("appLink").onclick = applink(appstore);
+    document.getElementById('appLink').click();
+    if (/iPhone|iPad|iPod/i.test(navigator.userAgent)) {
+    }
+
+</script>
