@@ -1,0 +1,21 @@
+<html>
+<head>
+</head>
+<body>
+   <a id="appLink" href="com-nineyi-shop-s001948://ShopSalePageCategory/2241?utm_source=fb_s_normall_0414_3&amp;utm_medium=fb_m_0414&amp;utm_campaign=fb_c_0414"></a>
+</body>
+</html>
+<script type="text/javascript">
+   
+   var appstore = "https://itunes.apple.com/tw/app/ps-gong-zhu-mi-mi/id1069825432?mt=8";
+   function applink(appstore) {
+       return function () {
+           var clickedAt = +new Date;
+           setTimeout(function () { if (+new Date - clickedAt < 2000) { window.location = appstore; } }, 500);
+       };
+   }
+   document.getElementById("appLink").onclick = applink(appstore);
+   document.getElementById('appLink').click();
+   if (/iPhone|iPad|iPod/i.test(navigator.userAgent)) {
+   }
+</script>
